@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**", // Includes all subdirectories in your project
+        "/usr/include",          // Standard system headers
+        "/usr/local/include"     // Additional system headers
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++", // Adjust if using a different compiler
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
